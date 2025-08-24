@@ -1,0 +1,6 @@
+# 大容量メモリノード#3
+[target.x86_64-unknown-linux-gnu]
+rustflags = [
+    "-C", "target-cpu=native",
+    "-C", "opt-level=3",
+]
